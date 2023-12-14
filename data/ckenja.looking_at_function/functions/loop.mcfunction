@@ -10,6 +10,6 @@
 
 data modify storage ckenja.looking_at_function: isAir set value 1
 execute unless block ~ ~ ~ #ckenja.looking_at_function:air run data modify storage ckenja.looking_at_function: isAir set value 0
-execute unless entity @s run data modify storage ckenja.looking_at_function: isAir set value 0
+execute unless entity @s[distance=..5] run data modify storage ckenja.looking_at_function: isAir set value 0
 execute unless data storage ckenja.looking_at_function: {isAir:1} run function ckenja.looking_at_function:loop.end with storage ckenja.looking_at_function: in
-execute if data storage ckenja.looking_at_function: {isAir:1} run function ckenja.looking_at_function:loop2
+execute if data storage util: out[-1] if data storage ckenja.looking_at_function: {isAir:1} run function ckenja.looking_at_function:loop2

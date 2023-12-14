@@ -10,5 +10,3 @@ data remove storage ckenja.looking_at_function:_ direction
 data modify storage util: in set value 10
 function #util:pass_through
 function ckenja.looking_at_function:loop
-data remove storage ckenja.looking_at_function: as_entity
-
