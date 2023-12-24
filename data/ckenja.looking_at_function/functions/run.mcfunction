@@ -1,6 +1,6 @@
 #> ckenja.looking_at_function:run
 #
-# @input 方向・位置・実行者は自分で指定すること。例えばブロック設置に使うならas @a anchored eyes positioned ^ ^ ^ run
+# @input 方向・位置・実行者は自分で指定すること。例えばブロック設置に使うならas @a at @s anchored eyes positioned ^ ^ ^ run
 #
 # @public
 
